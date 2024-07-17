@@ -1,3 +1,19 @@
+Termux:
+
+Install Termux from the Google Play Store.
+Use the following commands to install necessary tools:
+
+pkg install curl whois dnsutils sqlmap hydra ffuf
+
+Pydroid 3:
+
+Use Pydroid 3 for Python scripting and testing.
+Install necessary Python packages like requests, beautifulsoup4, and mechanize for web scraping and testing:
+
+import os
+os.system('pip install requests beautifulsoup4 mechanize')
+
+
 import requests
 
 url = input("Enter the URL of the web application: ")
